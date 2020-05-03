@@ -1,0 +1,56 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+.f-card {
+    /*height: 6.5em;*/
+    text-align: center;
+    cursor: pointer;
+}
+
+.main-row {
+    width: 90%;
+    margin: auto;
+    font-size: 0.7em;
+    line-height: 0.5;
+}
+
+.i-card {
+    text-align: center;
+    margin: 0;
+    border: 1px solid black;
+}
+
+.nf-card {
+    text-align: center;
+}
+
+
+.f-card .card-header h5 {
+    font-weight: bold;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th {
+    vertical-align: middle;
+}
+
+.table > tbody > tr > td:last-child {
+    text-align: center;
+}
+
+.ca-auto-fit > tbody > tr > td:not(:nth-last-child(2)) {
+    white-space: nowrap;
+    width: 1%;
+}
+
+.img-logo {
+    height: 70vh;
+}
